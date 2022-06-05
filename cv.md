@@ -37,7 +37,7 @@ E-mail: ceodikaster@gmail.com
 
 ### Courses:
 
-- Base programming knowledge on the “CS50” (as a course listener on YouTube)
+- Base programming knowledge on the «CS50» (as a course listener on YouTube)
 - HTML and CSS basics on the ru.code-basics.com (finished)
 - HTML basics on the htmlacademy.ru (finished)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
