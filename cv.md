@@ -41,11 +41,11 @@ E-mail: ceodikaster@gmail.com
 - HTML and CSS basics on the ru.code-basics.com (finished)
 - HTML basics on the htmlacademy.ru (finished)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- “The complete GIT guide” by Bogdan Stashchuk on “Udemy” (in progress)
+- «The complete GIT guide» by Bogdan Stashchuk on “Udemy” (in progress)
 
 ---
 
 ### Languages:
 
 - Native: Russian (high level of speaking and writing, incl. business correspondence)
-- English: B1-B2 Intermediate/Upper Intermediate (according to Lingua-school diploma, online test at efset.org, online Cambridge University test)
+- English: B1-B2 Intermediate/Upper Intermediate (according to «Lingua-school» diploma, online test at efset.org, online Cambridge University test)
