@@ -1,1 +1,1 @@
-my start
+https://alexkricher.github.io/rsschool-cv/

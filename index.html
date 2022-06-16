@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+   	<meta charset="UTF-8" />
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   	<link rel="stylesheet" href="style.css" />
+   	<title>Kricher's CV</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="header">
+					<nav>
+							<ul class="header_nav__list">
+								<li><a href="#anch_bio">bio</a></li>
+								<li><a href="#anch_skls">skills</a></li>
+								<li><a href="#anch_crs">courses</a></li>
+								<li><a href="#anch_lang">languages</a></li>
+								<li><a href="#anch_code">code-sample</a></li>
+							</ul>
+					</nav>
+					<!-- <div class="header_nav"></div> -->
+				</div>
+			</header>
+	
+			<main>
+				<section>
+					<div class="bio">
+						<div class="bio_img"><img src="junior_ava.jpg" alt="avatar_kricher" width="250" /></div>
+						<div class="bio_content">
+							<h1>Alex Kricher</h1>
+							<h2 id="anch_bio">Pre-junior Frontend Developer</h2>
+							<ul class="biocont_list">
+								<li>Phone/Watsapp: <a href="tel:+79119333177">+7 (9119) 333-177</a></li>
+								<li>GitHub: <a href="https://github.com/AlexKricher">github.com/AlexKricher</a></li>
+								<li>Telegram: <a href="https://t.me/al_capitan">@al_capitan</a></li>
+							</ul>
+						</div>
+						
+					</div>
+	
+					<!-- <div class="biocont"></div> -->
+				</section>
+				<section class="brief">
+					<div class="brief_items">
+						<h2>Briefly about me:</h2>
+						<p class="brief_items__text">
+							I have good interpersonal skills with rich life and business
+							experience. I am an excellent reliable and positive team worker. I’m
+							interested in Web Development because as I believe this occupation
+							provides people freedom of art, creativity and life. I really want
+							to graduate from RSSchool As Front-End Developer.
+						</p>
+					</div>
+				</section>
+				<section class="skills">
+					<div class="skills_items">
+						<h2 id="anch_skls">Skills and Proficiency:</h2>
+						<ul class="skills_items__list">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>VS Code</li>
+							<li>JavaScript (basic level, just ‘ve started)</li>
+							<li>GIT, GIThub (basic level, just ‘ve started)</li>
+							<li>Adobe Photoshop</li>
+							<li>Figma</li>
+							<li>Working in teams using CRM-systems and Kanban (Trello, Bitrix24)</li>
+							<li>High level of Soft- (people-) skills (exp. as a one of the most
+							successful sales-manager and then as a team-leader/head of
+							sales-dept.)</li>
+						</ul>
+					</div>
+				</section>
+				<section class="courses">
+					<div class="courses_items">
+						<h2 id="anch_crs">Courses:</h2>
+						<ul class="courses_items__list">
+							<li>
+							Base programming knowledge on the «CS50» (as a course listener on
+							YouTube)
+							</li>
+							<li>HTML and CSS basics on the ru.code-basics.com (finished)</li>
+							<li>HTML basics on the htmlacademy.ru (finished)</li>
+							<li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+							<li>«The complete GIT guide» by Bogdan Stashchuk on “Udemy” (in progress)</li>
+						</ul>
+					</div>
+				</section>
+				<section class="languages">
+					<div class="languages_items">
+						<h2 id="anch_lang">Languages:</h2>
+						<ul class="languages_items_list">
+							<li>Native: Russian (high level of speaking and writing, incl.
+							business correspondence)</li>
+							<li>English: B1-B2 Intermediate/Upper Intermediate (according to
+							«Lingua-school» diploma, online test at efset.org, online
+							Cambridge University test)</li>
+						</ul>
+					</div>
+				</section>
+				<section class="code">
+					<div class="code_items">
+						<h2>Code sample:</h2>
+							<pre id="anch_code" class="code_items__text">
+	function peak(arr) {
+	for (let i = 1; i < arr.length - 1; i++) {
+	let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+	let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+	if (leftSum === rightSum) {
+	return i;
+		}
+	}
+	return -1;
+	}
+							</pre>
+					</div>
+				</section>
+			</main>
+	
+			<footer class="footermain">
+				<div class="footer">
+				<ul class="footer_list">
+					<li>
+						<a href="https://github.com/AlexKricher">github.com/AlexKricher</a>
+					</li>
+					<li><span>2022</span></li>
+					<li>
+						<img
+						src="https://rs.school/images/rs_school_js.svg"
+						alt="logo_course"
+						width="50px"
+						/>
+					</li>
+					<li><a href="https://rs.school/js/">course:rs.school (js)</a></li>
+				</ul>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
