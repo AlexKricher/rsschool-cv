@@ -104,7 +104,7 @@
 						<h2>Code sample:</h2>
 							<pre id="anch_code" class="code_items__text">
 	function peak(arr) {
-	for (let i = 1; i < arr.length - 1; i++) {
+	for (let i = 1; i <arr.length - 1; i++) {
 	let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
 	let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
 	if (leftSum === rightSum) {
@@ -126,11 +126,7 @@
 					</li>
 					<li><span>2022</span></li>
 					<li>
-						<img
-						src="https://rs.school/images/rs_school_js.svg"
-						alt="logo_course"
-						width="50px"
-						/>
+						<img src="https://rs.school/images/rs_school_js.svg" alt="logo_course" width="50px"/>
 					</li>
 					<li><a href="https://rs.school/js/">course:rs.school (js)</a></li>
 				</ul>
